@@ -33,16 +33,23 @@ public class HelloWorldWriterTest {
     @Test
     public void workingWithStrings(){
 
+        //Exercise 2 - Converting to upper case
         String fName= "  Suresh Hebbal ";
         String upperCase = fName.toUpperCase(Locale.ROOT);
         System.out.println("uppercase string is:"+upperCase);
 
+        //Exercise 1 - Converting to lower case
         String lowerCase = fName.toLowerCase(Locale.ROOT);
         System.out.println("lowercase string is:"+lowerCase);
 
+        //Exercise 5 - Replacing text in a string
         String replaceString = fName.replace("Suresh", "Kallesh");
         System.out.println("replaced string is:"+replaceString);
+
+        //Exercise 4 - Finding the length of a string
         System.out.println(fName.length());
+
+        //Exercise 3 - Trim extra space
         System.out.println(fName.trim());
     }
 }
